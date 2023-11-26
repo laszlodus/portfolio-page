@@ -36,6 +36,8 @@ border: solid 1px black;
 padding: 0.5rem;
 border-radius: 0.5rem;
 background-image: url(pictures/brick.jpg);
+background-size: cover;
+background-repeat: no-repeat;
 margin: 2rem;
 
 }
@@ -80,6 +82,8 @@ margin: 2rem;
     margin: 2rem;
     padding: 2rem;
     background-image: url(pictures/white\ brick.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .lightbox {
     display: none;
