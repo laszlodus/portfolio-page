@@ -1,0 +1,293 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+    font-size: large;
+}
+
+ 
+:root {
+    --blue: rgb(55, 112, 236);
+    --shadow: rgb(46, 48, 47);
+    --bctext: rgb(242, 246, 247);
+}
+nav {
+    background: linear-gradient(to right,var(--blue), white, var(--blue));
+    box-shadow: 0 0.2rem 0.4rem var(--shadow);
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: auto;
+}
+#web-pic {
+    max-width: 100%;
+}
+
+.text {
+max-width: 100%;
+box-shadow:0.4rem 0.4rem 0.8rem var(--shadow);
+border: solid 1px black;
+padding: 0.5rem;
+border-radius: 0.5rem;
+background-image: url(/pictures/brick.jpg);
+margin: 2rem;
+
+}
+
+.more-about {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    margin-top: 2rem;
+    background-image: url(/pictures/Unconfirmed\ 81547.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+   
+}
+.more-about h2 {
+    text-align: center;
+    margin: 2rem;
+}
+
+.more-about p {
+    padding: 0.5rem;
+}
+
+.skills {
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.cert {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.certificates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
+    padding: 2rem;
+    background-image: url(/pictures/white\ brick.jpg);
+}
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.lightbox-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+.certificates img {
+    max-width: 100%;
+    box-shadow: 0.8rem 0.8rem 1rem var(--shadow);
+    border: 0.2rem solid white;
+}
+#img1:hover {
+  border-color: purple;
+  cursor: pointer;
+}
+#img2:hover {
+    border-color: orangered;
+    cursor: pointer;
+}
+#img3:hover {
+    border-color: yellow;
+    cursor: pointer;
+}
+#img4:hover {
+    border-color: lightskyblue;
+    cursor: pointer;
+  }
+
+
+.div1  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    margin: 2rem;
+}
+.div1 img {
+    margin: 0 2rem;
+    box-shadow: 0.4rem 0.4rem 0.6rem var(--shadow);
+    border-radius: 10px;
+}
+
+.projects {
+    text-align: center;
+}
+.contact {
+    margin-top: 1rem;
+}
+.contact h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contact-form {
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    line-height: 2rem;
+    color: var(--blue);
+}
+.contact-form textarea {
+    font-size: 14px;
+}
+
+.input-field {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0.2rem 0.2rem 0.4rem var(--blue);
+    font-size: 16px;
+    outline: none;
+}
+
+.submit-btn {
+padding: 0.5rem;
+cursor: pointer;
+color: var(--blue);
+font-weight: bold;
+font-size: large;
+border-radius: 0.5rem;
+}
+
+.submit-btn:hover {
+background-color: var(--blue);
+color: white;
+}
+
+.submit-btn:visited {
+    color: black;
+}
+.gdpr  {
+    color: black;
+    font-weight: bold;
+}
+.gdpr:hover {
+    color: red;
+}
+
+.privacy {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: justify;
+    margin: 1rem;
+}
+.privacy h6 {
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    margin: 0.5rem;
+}
+.privacy p {
+    font-size: small;
+    margin: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .text {
+    width: auto;
+    margin: auto;
+  }
+  .div1 {
+    min-width: 8rem;
+    margin: auto;
+    padding: 0;
+  }
+  .contact-form {
+    margin: auto;
+    padding: auto;
+  }
+  .more-about {
+    margin: auto;
+  }
+  .skills {
+    margin: auto;
+  }
+  .certificates {
+    margin: auto;
+  }
+ 
+}
+#git:hover {
+    cursor: pointer;
+}
+@media only screen and (min-width: 600px) {
+    
+}
+@media only screen and (min-width: 768px) {
+    .div1 {
+        flex-direction: row;
+        margin: auto;
+        padding: auto;
+    } 
+    .privacy {
+        width: 100%;
+    }
+    .certificates {
+        flex-direction: row;
+    }
+   
+  
+}
+@media only screen and (min-width: 992px) {
+    .privacy {
+        width: 50%;
+    }
+    
+}
+@media only screen and (min-width: 1200px) {
+    .about {
+    flex-direction: row;
+}
+.more-about {
+    padding: 1rem 10rem;
+}
+
+}
+.privacy {
+    display: flex;
+    flex-direction: column;
+    
+}
