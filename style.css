@@ -203,13 +203,6 @@ color: white;
 .submit-btn:visited {
     color: black;
 }
-.gdpr  {
-    color: black;
-    font-weight: bold;
-}
-.gdpr:hover {
-    color: red;
-}
 
 .privacy {
     display: flex;
