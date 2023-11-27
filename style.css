@@ -140,8 +140,7 @@ margin: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2rem;
-    margin: 2rem; 
+    margin: 3rem;
 } 
 .div1 img {
     margin:  1rem;
@@ -208,7 +207,7 @@ color: white;
     margin: auto;
     padding: auto;
 }
-  .more-about {
+.more-about {
     margin: auto;
 }
 .skills {
@@ -220,22 +219,22 @@ color: white;
 .img {
     width: fit-content;
   }
- 
 }
 #git:hover {
     cursor: pointer;
 }
 @media only screen and (min-width: 600px) {
-    
+    .div1 {
+       padding: auto;
+       margin: 0;
+    }
 }
 @media only screen and (min-width: 768px) {
-    .div1 {
-        flex-direction: row;
-        margin: auto;
-        padding: auto;
-    } 
-   
-    .certificates {
+   .div1  {
+    margin: auto;
+    padding: auto; 
+}
+   .certificates {
         flex-direction: row;
     } 
 }
@@ -246,5 +245,9 @@ color: white;
 }
 .more-about {
     padding: 1rem 10rem;
+}
+.div1 {
+    flex-direction: row;
+
 }
 }
