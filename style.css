@@ -140,7 +140,8 @@ margin: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 3rem;
+    align-items: center;
+    
 } 
 .div1 img {
     margin:  1rem;
@@ -227,6 +228,7 @@ color: white;
     .div1 {
        padding: auto;
        margin: 0;
+       flex-direction: row;
     }
 }
 @media only screen and (min-width: 768px) {
@@ -246,8 +248,5 @@ color: white;
 .more-about {
     padding: 1rem 10rem;
 }
-.div1 {
-    flex-direction: row;
+}
 
-}
-}
