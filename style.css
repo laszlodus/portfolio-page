@@ -204,23 +204,7 @@ color: white;
     color: black;
 }
 
-.privacy {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    text-align: justify;
-    margin: 1rem;
-}
-.privacy h6 {
-    color: black;
-    font-size: medium;
-    font-weight: bold;
-    margin: 0.5rem;
-}
-.privacy p {
-    font-size: small;
-    margin: 0.5rem;
-}
+
 
 @media only screen and (max-width: 600px) {
   .text {
