@@ -198,13 +198,6 @@ border-radius: 0.5rem;
 background-color: var(--blue);
 color: white;
 }
-
-.submit-btn:visited {
-    color: black;
-}
-
-
-
 @media only screen and (max-width: 600px) {
 .text {
     width: auto;
