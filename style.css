@@ -206,25 +206,25 @@ color: white;
 
 
 @media only screen and (max-width: 600px) {
-  .text {
+.text {
     width: auto;
     margin: auto;
-  }
+}
  
-  .contact-form {
+.contact-form {
     margin: auto;
     padding: auto;
-  }
+}
   .more-about {
     margin: auto;
-  }
-  .skills {
+}
+.skills {
     margin: auto;
-  }
-  .certificates {
+}
+.certificates {
     margin: auto;
-  }
-  .img {
+}
+.img {
     width: fit-content;
   }
  
@@ -253,7 +253,7 @@ color: white;
     
 }
 @media only screen and (min-width: 1200px) {
-    .about {
+.about {
     flex-direction: row;
 }
 .more-about {
