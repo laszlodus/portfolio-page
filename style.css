@@ -141,14 +141,13 @@ margin: 2rem;
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
-    margin: 2rem;
-}
+    margin: 2rem; */
+} 
 .div1 img {
-    margin: 0 2rem;
+    margin:  1rem;
     box-shadow: 0.4rem 0.4rem 0.6rem var(--shadow);
     border-radius: 10px;
 }
-
 .projects {
     text-align: center;
 }
@@ -211,10 +210,7 @@ color: white;
     width: auto;
     margin: auto;
   }
-  .div1 {
-    margin: auto;
-    padding: 0;
-  }
+ 
   .contact-form {
     margin: auto;
     padding: auto;
